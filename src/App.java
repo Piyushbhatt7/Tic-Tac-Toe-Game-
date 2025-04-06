@@ -60,8 +60,9 @@ public class App {
         {
             for(int col = 0; col < board[rows].length; col++)
             {
-                board[rows][col] = ' ';
+                System.out.print(board[rows][col] + " ");
             }
+                System.out.println();
         }
     }
 }
