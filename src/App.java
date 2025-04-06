@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
         
@@ -10,6 +12,13 @@ public class App {
             }
         }
 
-        
+         char player = 'X';
+         boolean gameOver = false;
+
+         Scanner sc = new Scanner(System.in);
+
+         while (!gameOver) {
+            
+         }
     }
 }
