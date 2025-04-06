@@ -30,15 +30,26 @@ public class App {
                 board[rows][col] = player;
                 gameOver = haveWon(board, player);
             }
-            else {
-               System.out.println("Invalid move. Tyr again!");
+            if(gameOver)
+            {
+                System.out.println("Player " + player + " has won ");
             }
+            else {
+                if(player == 'X')
+                {
+                    player = 'O';
+
+                }
+                else{
+                    player = 'X';
+                }
+            }
+               System.out.println("Invalid move. Try again!");
          }
     }
 
     public static boolean haveWon(char[][] board, char player)
     {
-
     }
 
     public static void printBoard(char[][] board)
