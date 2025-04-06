@@ -23,7 +23,22 @@ public class App {
             System.out.println("Player " + player +"  enter: ");
             int rows = sc.nextInt();
             int col = sc.nextInt();
+
+            if(board[rows][col] == ' ')
+            {
+                // place the element
+                board[rows][col] = player;
+                gameOver = haveWon(board, player);
+            }
+            else {
+               System.out.println("Invalid move. Tyr again!");
+            }
          }
+    }
+
+    public static boolean haveWon(char[][] board, char player)
+    {
+
     }
 
     public static void printBoard(char[][] board)
