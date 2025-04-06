@@ -4,10 +4,12 @@ public class App {
         char[][] board = new char[3][3];
         for(int rows = 0; rows < board.length; rows++)
         {
-            for(int col = 0; col < board.length; col++)
+            for(int col = 0; col < board[rows].length; col++)
             {
-                
+                board[rows][col] = ' ';
             }
         }
+
+        
     }
 }
