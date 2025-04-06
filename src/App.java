@@ -46,14 +46,22 @@ public class App {
             }
                System.out.println("Invalid move. Try again!");
          }
+         printBoard(board);
     }
 
     public static boolean haveWon(char[][] board, char player)
     {
+        
     }
 
     public static void printBoard(char[][] board)
     {
-
+        for(int rows = 0; rows < board.length; rows++)
+        {
+            for(int col = 0; col < board[rows].length; col++)
+            {
+                board[rows][col] = ' ';
+            }
+        }
     }
 }
