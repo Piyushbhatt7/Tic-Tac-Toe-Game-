@@ -19,6 +19,15 @@ public class App {
 
          while (!gameOver) {
             
+            printBoard(board);
+            System.out.println("Player " + player +"  enter: ");
+            int rows = sc.nextInt();
+            int col = sc.nextInt();
          }
+    }
+
+    public static void printBoard(char[][] board)
+    {
+
     }
 }
