@@ -61,7 +61,13 @@ public class App {
       }
 
       // check for columns
-      // 13:20
+      for(int col = 0; col < board.length; col++)
+      {
+        if(board[col][0] == player && board[col][1] == player && board[col][2] == player)
+        {
+            
+        }
+      }
     }
 
     public static void printBoard(char[][] board)
