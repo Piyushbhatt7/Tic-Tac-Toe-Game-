@@ -59,6 +59,9 @@ public class App {
             return true;
          }
       }
+
+      // check for columns
+      // 13:20
     }
 
     public static void printBoard(char[][] board)
