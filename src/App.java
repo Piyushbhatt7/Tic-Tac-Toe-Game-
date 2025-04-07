@@ -70,7 +70,10 @@ public class App {
       }
 
       // diagonal
-      if(boar[0][0] == player && board[1][1] == player && board[2][2] == player)
+      if(board[0][0] == player && board[1][1] == player && board[2][2] == player)
+      {
+        return true;
+      }
     }
 
     public static void printBoard(char[][] board)
