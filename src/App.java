@@ -63,7 +63,7 @@ public class App {
       // check for columns
       for(int col = 0; col < board.length; col++)
       {
-        if(board[col][0] == player && board[col][1] == player && board[col][2] == player)
+        if(board[0][col] == player && board[1][col] == player && board[2][col] == player)
         {
             return true;
         }
