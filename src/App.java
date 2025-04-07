@@ -75,7 +75,10 @@ public class App {
         return true;
       }
 
-      if(board[0][2] == player && board[1][1])
+      if(board[0][2] == player && board[1][1] && board[2][0] == player)
+      {
+        return true;
+      }
     }
 
     public static void printBoard(char[][] board)
