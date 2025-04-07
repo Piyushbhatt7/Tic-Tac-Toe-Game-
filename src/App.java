@@ -32,7 +32,7 @@ public class App {
             }
             if(gameOver)
             {
-                System.out.println("Player " + player + " has won 🎉🎉");
+                System.out.println("Player " + player + " has won!");
             }
             else {
                 if(player == 'X')
