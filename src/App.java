@@ -65,7 +65,7 @@ public class App {
       {
         if(board[col][0] == player && board[col][1] == player && board[col][2] == player)
         {
-            
+            return true;
         }
       }
     }
