@@ -74,6 +74,8 @@ public class App {
       {
         return true;
       }
+
+      if(board[0][2] == player && board[1][1])
     }
 
     public static void printBoard(char[][] board)
