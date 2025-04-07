@@ -20,7 +20,7 @@ public class App {
          while (!gameOver) {
             
             printBoard(board);
-            System.out.println("Player " + player +"  enter: ");
+            System.out.print("Player " + player +"  enter: ");
             int rows = sc.nextInt();
             int col = sc.nextInt();
 
@@ -88,7 +88,7 @@ public class App {
         {
             for(int col = 0; col < board[rows].length; col++)
             {
-                System.out.print(board[rows][col] + " ");
+                System.out.print(board[rows][col] + " | ");
             }
                 System.out.println();
         }
