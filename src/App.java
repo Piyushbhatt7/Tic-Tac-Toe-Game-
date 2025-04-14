@@ -39,7 +39,7 @@ public class App {
                 {
                     player = 'O';
  
-                }          
+                }           
                 else{              
                     player = 'X'; 
                 }
