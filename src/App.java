@@ -40,7 +40,7 @@ public class App {
                     player = 'O';
  
                 } 
-                else{     
+                else{      
                     player = 'X'; 
                 }
             }
