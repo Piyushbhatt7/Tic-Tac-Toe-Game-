@@ -41,7 +41,7 @@ public class App {
 
                 } 
                 else{
-                    player = 'X';
+                    player = 'X'; 
                 }
             }
                System.out.println("Invalid move. Try again!");
