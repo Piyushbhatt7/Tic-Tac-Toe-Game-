@@ -38,7 +38,7 @@ public class App {
                 if(player == 'X')
                 {
                     player = 'O';
-
+ 
                 } 
                 else{ 
                     player = 'X'; 
