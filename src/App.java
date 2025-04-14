@@ -51,7 +51,7 @@ public class App {
 
     public static boolean haveWon(char[][] board, char player)
     {
-      // check rows    
+      // check rows     
       for(int rows = 0; rows < board.length; rows++)
       {
          if(board[rows][0] == player && board[rows][1] == player && board[rows][2] == player)
