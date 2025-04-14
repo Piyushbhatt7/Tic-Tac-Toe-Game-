@@ -48,7 +48,7 @@ public class App {
          }
          printBoard(board);
     }
-
+  
     public static boolean haveWon(char[][] board, char player)
     {         
       // check rows             
